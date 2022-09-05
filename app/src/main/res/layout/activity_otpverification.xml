@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OTPverification"
+    >
+
+    <ImageView
+        android:layout_width="149dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:adjustViewBounds="true"
+
+        android:src="@drawable/lock" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Enter the verification code sent to your mobile"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp" />
+
+
+
+    <TextView
+        android:id="@+id/otpMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#CC000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="+91 9562478300"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="20dp"
+        android:weightSum="6"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/otpET1"
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"
+            />
+        <EditText
+            android:id="@+id/otpET2"
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor" />
+        <EditText
+            android:id="@+id/otpET3"
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor" />
+        <EditText
+            android:id="@+id/otpET4"
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+        <EditText
+            android:id="@+id/otpET5"
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+        <EditText
+            android:id="@+id/otpET6"
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+    </LinearLayout>
+    
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/verifyButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_sign_in_button"
+        android:text="Verify"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/resendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Resend Code"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

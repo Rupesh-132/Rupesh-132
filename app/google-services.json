@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "47319323946",
+    "firebase_url": "https://apnadiary-14ca1-default-rtdb.firebaseio.com",
+    "project_id": "apnadiary-14ca1",
+    "storage_bucket": "apnadiary-14ca1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47319323946:android:5c6422d5df2db0c33a7a53",
+        "android_client_info": {
+          "package_name": "com.example.apnadairy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47319323946-s804693ab6ut2nq4119g9uikvk122agr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apnadairy",
+            "certificate_hash": "2ef084b79fc8c8bf2cc7575b6c67c84d3563ac1a"
+          }
+        },
+        {
+          "client_id": "47319323946-4ek0lv1o95270ugd1k7tp5tv4echcjqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC10xqtWK2X38oBCnM8HbF-EzWG49-YMrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47319323946-4ek0lv1o95270ugd1k7tp5tv4echcjqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
