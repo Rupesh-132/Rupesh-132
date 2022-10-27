@@ -1,3 +1,4 @@
+![logo](https://github.com/Rupesh-132/Rupesh-132/blob/master/Banner.png)
 <h1 align="center">Hi 👋, I'm Rupesh Yadav</h1>
 <h3 align="center">Machine Learning student.</h3>
 
