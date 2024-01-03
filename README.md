@@ -2,7 +2,7 @@
 
 
 <h1 align="center">Hi 👋, I'm Rupesh Yadav</h1>
-<h3 align="center">Data Scientist.</h3>
+<h2 align="center">Data Scientist</h2>
 
 <img align = "right" alt = "Machine Learning" width = "400" height="400" src = "https://media1.giphy.com/media/3KQFqhgLN9ngkYr0qS/giphy.gif?cid=ecf05e472iracwdnh5rtzjvqx744oq2dv7yi7hvlak7aoo1w&rid=giphy.gif&ct=g"> 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rupesh-132&label=Profile%20views&color=0e75b6&style=flat" alt="rupesh-132" /> </p>
